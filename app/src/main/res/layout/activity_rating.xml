@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/reviewText"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:text="write_a_review" />
+
+    <RadioGroup
+        android:id="@+id/rateGroup"
+        android:layout_width="match_parent"
+        android:layout_height="218dp">
+
+        <RadioButton
+            android:id="@+id/rateOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rate1" />
+
+        <RadioButton
+            android:id="@+id/rateTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rate2" />
+
+        <RadioButton
+            android:id="@+id/rateThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rate3" />
+
+        <RadioButton
+            android:id="@+id/rateFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rate4" />
+
+        <RadioButton
+            android:id="@+id/rateFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rate5" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonSubmitOnClick"
+        android:text="submit" />
+
+</LinearLayout>

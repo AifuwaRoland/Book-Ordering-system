@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comp3350.amate.presentation.BookActivity">
+
+    <ListView
+        android:id="@+id/bookInfo"
+        android:layout_width="match_parent"
+        android:layout_height="447dp"></ListView>
+
+    <View
+        android:id="@+id/bookInfoReviewDivider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/bookReviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Reviews" />
+
+    <ListView
+        android:id="@+id/Reviews"
+        android:layout_width="match_parent"
+        android:layout_height="256dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reviewButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/book_review" />
+
+        <Button
+            android:id="@+id/purchaseButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/book_purchase" />
+
+        <Button
+            android:id="@+id/addBookmarkButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Add to bookmark" />
+
+        <Button
+            android:id="@+id/bookRecommendAuthor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Books by same author" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">amate</string>
+    <string name="best_seller_button">Get Best Seller</string>
+    <string name="search_author">Search Author</string>
+    <string name="search_title">Search Title</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="profile">Account Profile</string>
+    <string name="view_all">View All Books</string>
+    <string name="book_review">Review</string>
+    <string name="book_purchase">Add to Cart</string>
+    <string name="rate1">1</string>
+    <string name="rate2">2</string>
+    <string name="rate3">3</string>
+    <string name="rate4">4</string>
+    <string name="rate5">5</string>
+    <string name="noOrder">Order does not exist</string>
+    <string name="searchOrderButton">Get order details</string>
+    <string name="findOrder">Look up order</string>
+</resources>

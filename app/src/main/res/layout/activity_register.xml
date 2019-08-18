@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/signupUserID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:ems="12"
+            android:maxLength="30"
+            android:inputType="textNoSuggestions"  />
+
+        <EditText
+            android:id="@+id/signupUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="last name and first name"
+            android:ems="12"
+            android:maxLength="30"
+            android:inputType="textNoSuggestions" />
+        <EditText
+            android:id="@+id/signupUserNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="phone number"
+            android:ems="12"
+            android:maxLength="30"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/signupUserAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="address"
+            android:ems="12"
+            android:maxLength="30"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/signupUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email address"
+            android:ems="12"
+            android:maxLength="30"
+            android:inputType="textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/signupPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:ems="12"
+            android:maxLength="30"
+            android:inputType="textNoSuggestions" />
+
+        <CheckBox
+            android:id="@+id/customerMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up as customer"/>
+        <CheckBox
+            android:id="@+id/administratorMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up as administrator"/>
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#0000ff"
+            android:onClick="buttonRegisterOnClick"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#0000ff"
+            android:onClick="buttonCancelOnClick"
+            android:text="Cancel" />
+    </LinearLayout>
+</RelativeLayout>
